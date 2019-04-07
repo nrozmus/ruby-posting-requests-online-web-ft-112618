@@ -19,7 +19,7 @@ If we look at the [Add Tip documentation](https://developer.foursquare.com/docs/
 According to the docs, we'll need to POST to `https://api.foursquare.com/v2/tips/add` with a `venueId`, some `text`, and, since it requires an acting user, our `oauth_token`. If you need a refresher on how to do OAuth with Foursquare, click the [learn more link](https://developer.foursquare.com/overview/auth) next to where it says **Requires Acting User**.
 
 ### POSTing with Postman
-
+#small change 
 Let's try this out in Postman first.
 
 We'll need our oauth token to do this. Fortunately we already have this in our app, so to get it into Postman, we're going to temporarily display it on the page so we can copy and paste it:
